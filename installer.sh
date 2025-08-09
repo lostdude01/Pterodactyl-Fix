@@ -1,11 +1,15 @@
 #!/bin/bash
 set -e
 
-echo "==============================================="
-echo " Script Made by LostDude."
-echo " THIS IS NOT OFFICIAL SCRIPT BY NIT."
+echo "=================================================="
+echo " THIS IS NOT OFFICIAL SCRIPT BY KVM-I7."
+echo "=================================================="
+echo " Script Made by LostDude. Made for E5-Compute"
 echo " This Script will fix the NIT Composer Issues"
-echo "==============================================="
+echo " Script Made for NIT issue Nodes in E5-Compute"
+echo "=================================================="
+echo " https://github.com/lostdude01 | Credits: Lostdude"
+echo "=================================================="
 echo ""
 
 # No prompt, auto continue
