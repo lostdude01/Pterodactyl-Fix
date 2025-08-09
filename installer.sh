@@ -41,6 +41,18 @@ php /usr/local/bin/composer.phar "$@"
 EOF
 chmod +x /usr/local/bin/composer
 
+if ! echo "$PATH" | grep -q "/usr/local/bin"; then
+    echo "Adding /usr/local/bin to PATH..."
+    # Add it to ~/.bashrc if not already present
+    if ! grep -q 'export PATH=/usr/local/bin:$PATH' ~/.bashrc; then
+        echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bashrc
+    fi
+    # Also update current session PATH
+    export PATH="/usr/local/bin:$PATH"
+else
+    echo "/usr/local/bin already in PATH."
+fi
+
 echo "Installation complete!"
 echo -n "PHP version: "
 php -v | head -n 1
