@@ -44,16 +44,9 @@ php /usr/local/bin/composer.phar "$@"
 EOF
 chmod +x /usr/local/bin/composer
 
-if ! echo "$PATH" | grep -q "/usr/local/bin"; then
-    echo "🚀 Fixing Path Errors..."
-    # Add it to ~/.bashrc if not already present
-    if ! grep -q 'export PATH=/usr/local/bin:$PATH' ~/.bashrc; then
-        echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bashrc
-    fi
-    # Also update current session PATH
-    export COMPOSER_ALLOW_SUPERUSER=1
-    export PATH="/usr/local/bin:$PATH"
-else
-     echo "🚀 Moved Path Successfully..."
-fi
+echo "🚀 Fixing Path Errors..."
+echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bashrc
+export COMPOSER_ALLOW_SUPERUSER=1
+export PATH="/usr/local/bin:$PATH"
+
  echo "✅ Installation Completed"
