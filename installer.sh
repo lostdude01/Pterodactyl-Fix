@@ -57,6 +57,7 @@ echo "Installation complete!"
 echo -n "PHP version: "
 php -v | head -n 1
 echo -n "Composer version: "
+export COMPOSER_ALLOW_SUPERUSER=1
 composer --version
 
 echo "Verifying PHP extensions..."
