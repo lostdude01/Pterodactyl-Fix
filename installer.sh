@@ -58,5 +58,4 @@ else
 fi
  echo "✅ Installation Completed"
 
-fi
 done
