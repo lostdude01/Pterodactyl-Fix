@@ -1,15 +1,17 @@
 #!/bin/bash
 set -e
 
-echo "=================================================="
+echo "===================================================="
 echo " THIS IS NOT OFFICIAL SCRIPT BY KVM-I7."
-echo "=================================================="
+echo "===================================================="
 echo " Script Made by LostDude. Made for E5-Compute"
 echo " This Script will fix the NIT Composer Issues"
 echo " Script Made for NIT issue Nodes in E5-Compute"
-echo "=================================================="
+echo "===================================================="
+echo " After running this Script use pterodactyl installer"
+echo "===================================================="
 echo " https://github.com/lostdude01 | Credits: Lostdude"
-echo "=================================================="
+echo "===================================================="
 echo ""
 
 # No prompt, auto continue
