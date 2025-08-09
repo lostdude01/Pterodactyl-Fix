@@ -57,5 +57,3 @@ else
      echo "🚀 Moved Path Successfully..."
 fi
  echo "✅ Installation Completed"
-
-done
