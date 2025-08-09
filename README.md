@@ -1,4 +1,4 @@
-### 🚀 NIT Pterodactyl Resolver for KVM-I7 | Made by LostDude .
+### 🚀 NIT Pterodactyl Resolver for KVM-I7 | Made by LostDude . [UPDATED 0.2.0]
 
 > This script was created to address recent NIT routing issues in the US-1 Node. These issues cause the Pterodactyl installer to fail midway through the installation process. By applying this fix, the installation can complete successfully without interruptions.
 
