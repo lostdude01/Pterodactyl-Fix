@@ -15,7 +15,9 @@ curl: (28) Failed to connect to getcomposer.org port 443 after 132797 ms: Connec
 
 **Run Script:** ```curl -sSL https://raw.githubusercontent.com/lostdude01/Pterodactyl-Fix/main/installer.sh | bash```
 
-#### ✅ Done! Now you won't get Composer error
+**Fix Paths:** ```export PATH="/usr/local/bin:$PATH"```
+
+#### ✅ Done! Now you won't get Composer error. Run the Pterodactyl Installer & Enjoy!
 
 
 
